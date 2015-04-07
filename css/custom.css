@@ -1,0 +1,85 @@
+
+body {
+
+	background:#f2f2f2 url("../images/background.png") repeat-x 0 0;
+
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+
+	/*font-family: 'Source Serif Pro', Georgia, Times, 'Times New Roman', serif;*/
+	font-size: 18px;
+	line-height: 1.4em;
+}
+
+h1, h3 {
+	font-weight: bold;
+	/*border-bottom: 2px solid #ddd;*/
+	border-bottom: 1px dashed gainsboro;
+	padding: .1em .4em;
+}
+
+.header {
+	padding:1em;
+	padding-bottom:1em;
+	background-color: #f2f2f2;
+	height: 60px;
+}
+
+.logo {
+	padding-top:20px;
+	font-size: 48px;
+	font-weight: bold;
+	font-family: Vollkorn;
+	height: 60px;
+	color: black;
+}
+
+.logo-link {
+	text-decoration: none;
+}
+
+#menu
+{
+	margin-top: -4em;
+	height: 30px;
+}
+
+#menu ul
+{
+display: inline;
+float: left;
+margin: 0;
+padding:0;
+list-style: none outside;
+
+}
+
+#menu ul li
+{
+	display: inline;
+}
+
+#menu ul li a
+{
+float: left !important;
+/*margin-top: 1em;*/
+margin-right: 30px;
+/*margin-right: 8px;*/
+padding: 0;
+font-size:12px;
+text-decoration: none;
+}
+
+
+.content {
+	padding:1em 1em 5em; /* bottom padding for footer */
+	background-color:white;
+}
+
+
+.content li {
+	list-style-type: disc;
+}
+
+.content ul {
+	padding-left: 50px;
+}

@@ -1,13 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>title</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-  </head>
-  <body>
-	<h2>it works!</h2>    
-  </body>
-</html>
+<head>
 
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>index</title>
+    <meta name="description" content="a poole site" />
+    <meta name="keywords" content="poole" />
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+
+    <script type="text/javascript">
+        function doMail()
+        {
+            window.location = "mailto:contact@nexttv.rocks";
+        }
+    </script>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="header">
+
+        <a class="logo-link " href="http://nexttv.rocks/">
+            <div class="logo">NEXT TV</div>
+        </a>
+        <div id="menu">
+            <button class="button-primary u-pull-right" onclick="doMail()">Contact</button>
+        </div>
+
+
+    </div>
+
+    <!-- <div class="row">
+        <h1>index</h1>
+    </div>
+    -->
+    <div class="row">
+      <div class="column content"><p>title: Next TV
+position: 0
+--</p>
+<h1>NEXT TV</h1>
+<p>Next TV - high-performance and robust OTT media streaming platform supporting multiple adaptive http streaming formats such as HLS, Microsoft Smooth Streaming and MPEG-DASH.</p>
+<h1>Features</h1>
+<h3>Multiple formats</h3>
+<ul>
+<li>HLS</li>
+<li>Smooth</li>
+<li>MPEG-DASH</li>
+</ul>
+<h3>Playback features</h3>
+<ul>
+<li>timeshift</li>
+<li>archive</li>
+<li>rewind</li>
+<li>pause live tv (currently smooth only)</li>
+<li>multiple audio tracks</li>
+<li>5.1 audio</li>
+</ul>
+<h3>CDN integration</h3>
+<ul>
+<li>Level3</li>
+<li>Akamai</li>
+<li>Cdnvideo</li>
+<li>Ngenix</li>
+</ul>
+<h3>Protection</h3>
+<ul>
+<li>DRM protection using Microsoft Playready (smooth)</li>
+<li>AES-128 encryption for HLS protocol (Verimatrix in plans)</li>
+<li>HAS url access control based on user ip</li>
+<li>Protection from sharing HAS urls between users</li>
+</ul>
+<h3>Codecs</h3>
+<ul>
+<li>H264/AVC</li>
+<li>Advanced Audio Coding (AAC)</li>
+<li>Dolby Digital AC-3</li>
+</ul>
+<h3>High Availability</h3>
+<ul>
+<li>Next TV platform is distributed by design and tolerant to loss of any reasonable number of hardware nodes</li>
+</ul>
+<h3>Easy Integration to your billing</h3>
+<ul>
+<li>Next TV provides simple REST API for HAS streams generation and statistics</li>
+</ul></div>
+    </div>
+  </div>
+</body>
+</html>
