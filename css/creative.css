@@ -190,13 +190,14 @@ header .header-content {
     position: relative;
     height: 576px;
     width: 100%;
-    padding: 100px 15px;
     text-align: center;
 }
 
 header .header-content .header-content-inner h1 {
     text-transform: uppercase;
     font-weight: 700;
+    width: 100%;
+    text-align: center;
 
     position: absolute;
     top: 50%;
